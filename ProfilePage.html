@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="style-profile.css">
 </head>
 <body>
-    <div class="profile">
+    <div id="profileContainer">
         <div>
-            <img class="image" src="images/test.jpg">
+            <img src="ProfileImages/test.jpg">
         </div>
-        <div class="cover">
-            <input type="image" src="images/edit.png" />
+        <div id="editImageContainer">
+            <input class="editImageInput" type="image" src="ProfileImages/edit.png" />
         </div>
+    </div>
 
-        <input type="text" placeholder="Nombre de usuario" required
-        minlength="4" maxlength="8" size="15">
+    <div id="nameContainer">
+        <input placeholder="LA GAVIOTA" type="text"  disabled/>
+        <input type="image" src="ProfileImages/edit.png" />
+    </div>
 
-
-
-        <input type="image" src="images/edit.png" />
-
+    <div id="formButton">
+        <input type="submit" value="Change password"/>
     </div>
 
 </body>

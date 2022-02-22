@@ -1,37 +1,71 @@
-.image{
-    width:250px;
-    height:250px;
-    border-radius: 50%;
-}
-
-.profile{
+#profileContainer{
     text-align: center;
     position:relative;
     width: 100%;
-
 }
 
-.cover{
+#profileContainer img{
+    height:15em;
+    width:15em;
+    border-radius: 50%;
+}
+
+#editImageContainer{
     position: absolute;
     height: 100%;
     width: 100%;
     top:30%;
 }
 
-.cover input{
+#editImageContainer input {
     height: 40%;
     width: auto;
 }
 
-.btnImage{
-    color: #900;
-    border: 1px solid #900;
-    font-weight: bold;
-    width: 200px;
-    height: 100px;
+
+#nameContainer {
+    margin-top:5em;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    width:100%
+
 }
 
-.btnImage img{
-    vertical-align: middle;
+#nameContainer input[type=text]{
+    border-radius: 1rem;
+    height: 2rem;
+    width: 13rem;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
+
+#nameContainer input[type=image]{
+    background-color:transparent;
+    border:0;
+    width:1.2em;
+    height: 1.2em;
+    position: absolute;
+    top:25%;
+    left:54%;
+}
+
+#formButton{
+    width:100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#formButton input{
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 2rem;
+    border:none;
+    background-color: #00B4D6;
+    color:white;
+}
+
 
