@@ -27,6 +27,7 @@ iframe {
     width: 15vw;
     height: auto;
     margin-top: 2rem;
+    border-radius: 1.5rem;
 }
 
 .card{
