@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style-profile.css">
+    <title>Profile | Cantrip</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+    <iframe src="header.html"></iframe>
     <div id="profileContainer">
         <div>
-            <img src="ProfileImages/test.jpg">
+            <img src="media/user.jpg">
         </div>
         <div id="editImageContainer">
-            <input class="editImageInput" type="image" src="ProfileImages/edit.png" />
+            <input class="editImageInput" type="image" src="media/edit-icon.png" />
         </div>
     </div>
 
     <div id="nameContainer">
-        <input placeholder="LA GAVIOTA" type="text"  disabled/>
-        <input type="image" src="ProfileImages/edit.png" />
+        <input placeholder="la.gaviota101@alu.ulpgc.es" type="text"  disabled/>
+        <input type="image" src="media/edit-icon.png" />
+    </div>
+    <br>
+    <br>
+    <div class="button">
+        <input type="submit" value="Change password"/>
     </div>
 
-    <div id="formButton">
-        <input type="submit" value="Change password"/>
+    <div class="footerPosition">
+        <iframe src="footer.html"></iframe>
     </div>
 
 </body>
