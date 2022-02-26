@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap');
 
+<<<<<<< HEAD
 *{
 
     font-family: 'Raleway', 'Arial';
@@ -228,6 +229,15 @@ input[type=text],textarea{
     width: 30em;
     float:left;
 }
+*{
+    font-family: 'Raleway', 'Arial';
+}
+iframe{
+    border: none;
+    width: 100%;
+}
+
+
 .formContainer{
     text-align: center;
     padding: 15rem 0;
@@ -236,16 +246,6 @@ input[type=text],textarea{
 
 .formTextArea{
     margin-top: 2.2em;
-}
-input[type=text]{
-    border-radius: 1rem;
-    height: 3rem;
-    width: 17rem;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    color: black;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
 }
 
 .formButton{
@@ -270,4 +270,15 @@ input[type=submit]{
 :-moz-placeholder { /* Firefox 18- */
     text-align: center;
     color: #C4C4C4;
+}
+
+input[type=password], input[type=text]{
+    border-radius: 1rem;
+    height: 3rem;
+    width: 17rem;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
