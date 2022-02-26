@@ -72,7 +72,7 @@ iframe {
 
 }
 
-.outstanding-routes-container, .founders-container{
+.outstanding-routes-container, .founders-container, .search-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 3rem;
@@ -106,12 +106,16 @@ footer{
     float: right;
     margin-right: 3rem;
     margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 10em);
 }
 
 .menu-link{
     margin-left: 2rem;
     color: black;
     text-decoration: none;
+    align-self: center;
+    justify-self: center;
 }
 
 .about-us-container{
@@ -233,7 +237,7 @@ textarea{
     float:left;
 }
 
-input[type=password], input[type=text], input[type=submit]{
+input[type=password], input[type=text], input[type=submit], #sort, #create-route{
     border-radius: 1rem;
     height: 3rem;
     width: 16rem;
@@ -245,7 +249,7 @@ input[type=password], input[type=text], input[type=submit]{
 }
 
 
-input[type=submit]{
+input[type=submit], #sort, #create-route{
     border-radius: 0.5rem;
     width: 12rem;
     font-size: 1.1rem;
@@ -272,3 +276,59 @@ input[type=submit]{
     margin-bottom: 7rem;
 }
 
+/*Predefined routes*/
+.menu-profile{
+    width: 6em;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 5em;
+    float: right;
+    align-self: center;
+}
+
+.menu-logged-in{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 10em);
+    justify-content: end;
+}
+
+#create-route{
+    margin-left: 5rem;
+}
+
+#sort{
+    width: 6em;
+}
+
+#search-btn{
+    margin: 3em 0em;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 10rem);
+    place-items: center;
+}
+
+.search-container{
+    display: grid;
+}
+
+.route-info{
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    justify-content: space-evenly;
+    place-items: center;
+    margin-top: 1rem;
+
+}
+
+.user-icon{
+    width: 1.5rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+.search-container .card{
+    height: 40vh;
+}
