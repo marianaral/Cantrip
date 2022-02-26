@@ -11,6 +11,10 @@ iframe {
     width: 100%;
 }
 
+html, body{
+    height: 100%;
+}
+
 .company-name{
     font-family: 'Pacifico', 'Arial';
     float:left;
@@ -36,18 +40,21 @@ iframe {
     border-radius: 2rem;
     width: 20vw;
     height: 50vh;
-    float: left;
     text-align: center;
     padding-top: 2rem;
     margin-bottom: 10vh;
-    margin-left: 2rem;
+    justify-self: center;
+
 
 }
 
-.outstanding-routes-container{
 
-    margin-left: 10%;
-    margin-right: 10%;
+.outstanding-routes-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: fill;
+    margin-top: 3rem;
+
 
 
 }
@@ -59,10 +66,8 @@ footer{
     height:80vh;
     margin-bottom: 0;
     padding-bottom: 0;
-
-
-
 }
+
 .menu{
     float: right;
     margin-right: 3rem;
@@ -84,5 +89,15 @@ footer{
 
 .about-us-container{
     text-align: center;
+}
+
+#carousel {
+    display: grid;
+
+}
+
+.carousel-img{
+    grid-column: 2;
+    border-radius: 2rem;
 }
 
