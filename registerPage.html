@@ -6,21 +6,24 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1 class="company-name">CanTrip</h1></a>
+    <header class="login-header">
+        <a href="index.html"><p class="company-name">CanTrip</p></a>
     </header>
-    <main class="formContainer">
-        <form action="" method="post">
-            <div class="formTitle">
-                <h3>Join us!</h3>
+    <main>
+        <div>
+            <h1>Join us!</h1>
+        </div>
+        <form action="" method="post" class="formContainer">
+
+            <div>
+                <input type="password" name="passwordRegister" placeholder="enter password">
             </div>
-            <div class="formTextArea">
-                <input type="password" name="passwordRegister" placeholder="enter password"><br>
+            <br>
+            <div>
+                <input type="password" name="repeatPasswordRegister" placeholder="repeat password">
             </div>
-            <div class="formTextArea">
-                <input type="password" name="repeatPasswordRegister" placeholder="repeat password"><br>
-            </div>
-            <div class="formButton">
+            <br>
+            <div>
                 <input type="submit" value="Continue">
             </div>
         </form>

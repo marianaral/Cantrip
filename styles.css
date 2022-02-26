@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap');
 
+/*
+General styles
+ */
 *{
 
     font-family: 'Raleway', 'Arial';
@@ -18,7 +21,7 @@ h1, .subtitle{
     text-align: center;
 
 }
-
+/*Index.html*/
 .subtitle{
     margin-top:2em;
 }
@@ -150,12 +153,6 @@ profilePage styles
     top:30%;
 }
 
-#editImageContainer input {
-    height: 40%;
-    width: auto;
-}
-
-
 #nameContainer {
     margin-top:5em;
     text-align: center;
@@ -164,15 +161,36 @@ profilePage styles
     width:100%
 }
 
-textarea{
-    border-radius: 1rem;
-    height: 3em;
-    width: 16em;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    color:black;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+.button{
+    width:100%;
+    text-align: center;
+}
+
+iframe{
+    border: none;
+    width: 100%;
+}
+/*Forms and inputs*/
+.formElement{
+    height:2em;
+    margin-top: 0.2em;
+}
+
+.formElement label, .formMessage label{
+    font-size: 0.5em;
+    margin-left:40em;
+    width: 10%;
+    float:left;
+    padding-top: 0.3em;
+    height: 100%;
+
+}
+
+.formContainer{
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.9rem;
+
 }
 
 #nameContainer input[type=image]{
@@ -185,80 +203,55 @@ textarea{
     left:56%;
 }
 
-.button{
-    width:100%;
-    text-align: center;
-}
-
-.button input{
-    border-radius: 0.5rem;
-    width: 14rem;
-    height: 2rem;
-    border:none;
-    background-color: #00B4D6;
-    color:white;
-}
-
-.formElement{
-    height:2rem;
-    margin-top: 0.5em;
-}
-
 .formMessage{
     margin-top: 0.5em;
+    height: 7.5em;
+    margin-bottom: 1.5em;
 }
 
-.formElement label, .formMessage label{
-    font-size: 0.5em;
-    margin-left:45em;
-    width: 10%;
-    float:left;
-    align-items: center;
-    height: 100%;
-    display: flex;
+
+#editImageContainer input {
+    height: 40%;
+    width: auto;
 }
 
-.formMessage textarea{
+textarea{
     width: 35em;
     height: 15em;
     resize: none;
     padding: 1em;
+
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:black;
+    float: left;
 }
 
 .formElement input {
     width: 30em;
     float:left;
 }
-*{
-    font-family: 'Raleway', 'Arial';
-}
-iframe{
+
+input[type=password], input[type=text], input[type=submit]{
+    border-radius: 1rem;
+    height: 3rem;
+    width: 16rem;
     border: none;
-    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 
-.formContainer{
-    text-align: center;
-    padding: 15rem 0;
-    font-size: 1.9rem;
-}
-
-.formTextArea{
-    margin-top: 2.2em;
-}
-
-.formButton{
-    margin-top: 1.7em;
-}
 input[type=submit]{
     border-radius: 0.5rem;
     width: 12rem;
-    height: 3rem;
     font-size: 1.1rem;
-    border: none;
     background-color: #00B4D8;
     color: white;
+    box-shadow: none;
 }
 
 ::-webkit-input-placeholder {
@@ -272,13 +265,10 @@ input[type=submit]{
     color: #C4C4C4;
 }
 
-input[type=password], input[type=text]{
-    border-radius: 1rem;
-    height: 3rem;
-    width: 17rem;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    color: black;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+/*Login*/
+.login-header{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 7rem;
 }
+
