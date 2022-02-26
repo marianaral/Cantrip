@@ -306,8 +306,13 @@ input[type=submit], #sort, #create-route{
     margin: 3em 0em;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(2, 10rem);
+    grid-template-columns: repeat(2, 20rem);
     place-items: center;
+}
+
+#search-sort-container{
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
 }
 
 .search-container{
@@ -332,3 +337,5 @@ input[type=submit], #sort, #create-route{
 .search-container .card{
     height: 40vh;
 }
+
+
