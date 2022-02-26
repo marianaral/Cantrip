@@ -1,0 +1,39 @@
+Index: ProfilePage.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProfilePage.html b/ProfilePage.html
+new file mode 100644
+--- /dev/null	(date 1645613689620)
++++ b/ProfilePage.html	(date 1645613689620)
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++    <link rel="stylesheet" href="style-profile.css">
++</head>
++<body>
++    <div id="profileContainer">
++        <div>
++            <img src="ProfileImages/test.jpg">
++        </div>
++        <div id="editImageContainer">
++            <input class="editImageInput" type="image" src="ProfileImages/edit.png" />
++        </div>
++    </div>
++
++    <div id="nameContainer">
++        <input placeholder="LA GAVIOTA" type="text"  disabled/>
++        <input type="image" src="ProfileImages/edit.png" />
++    </div>
++
++    <div id="formButton">
++        <input type="submit" value="Change password"/>
++    </div>
++
++</body>
++</html>
+\ No newline at end of file
