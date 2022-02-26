@@ -53,7 +53,7 @@ iframe {
     margin-top:1em;
 }
 
-.outstanding-routes-img{
+.outstanding-routes-img, .founder-image{
     width: 10vw;
     height: auto;
     margin-top: 2rem;
@@ -68,8 +68,6 @@ iframe {
     text-align: center;
     padding-top: 2rem;
     justify-self: center;
-
-
 }
 
 .outstanding-routes-container, .founders-container, .search-container{
@@ -276,7 +274,9 @@ input[type=submit], #sort, #create-route{
     margin-bottom: 7rem;
 }
 
-/*Predefined routes*/
+/*---------------
+Predefined routes
+----------------*/
 .menu-profile{
     width: 6em;
     height: auto;
@@ -336,6 +336,10 @@ input[type=submit], #sort, #create-route{
 
 .search-container .card{
     height: 40vh;
+}
+
+.founders-container .card{
+    padding: 0;
 }
 
 
