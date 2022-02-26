@@ -49,10 +49,9 @@ html, body{
 }
 
 
-.outstanding-routes-container{
+.outstanding-routes-container, .founders-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: fill;
     margin-top: 3rem;
 
 
@@ -100,4 +99,5 @@ footer{
     grid-column: 2;
     border-radius: 2rem;
 }
+
 
