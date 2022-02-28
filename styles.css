@@ -234,7 +234,7 @@ textarea{
     float:left;
 }
 
-input[type=password], input[type=text], input[type=submit], #sort, #create-route, .page-icon{
+input[type=password], input[type=text], input[type=submit], #sort, #create-route, .page-icon, #people-selector-container{
     border-radius: 1rem;
     height: 3rem;
     width: 16rem;
@@ -328,7 +328,7 @@ Predefined routes
 }
 
 .user-icon{
-    width: 1.5rem;
+    width: 1rem;
     height: auto;
     margin-left: 0.5rem;
 }
@@ -368,4 +368,35 @@ Predefined routes
 #page-number{
     font-size: 1.25rem;
 }
+/*RoutePage*/
+.route-settings-container{
+    display: grid;
+    grid-template-columns: repeat(3, 4rem);
+}
+
+#people-selector-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1.5rem);
+    place-items: center;
+    width: 5rem;
+}
+
+#arrow-number-people-image-up{
+    transform: rotate(90deg);
+    width: 1rem;
+    height: auto;
+}
+#arrow-number-people-image-down{
+    transform: rotate(-90deg);
+    width: 1rem;
+    height: auto;
+}
+.route-page-arrow{
+    display: grid;
+    margin-left: 1rem;
+    border: none;
+    background-color: white;
+}
+
+
 
