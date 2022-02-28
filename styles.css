@@ -67,6 +67,8 @@ iframe {
     text-align: center;
     padding-top: 2rem;
     justify-self: center;
+    text-decoration: none;
+    color: black;
 }
 
 .outstanding-routes-container, .founders-container, .search-container{
@@ -295,6 +297,8 @@ Predefined routes
 
 #create-route{
     margin-left: 5rem;
+    background-color: #ffcb69;
+    color: black;
 }
 
 #sort{
