@@ -12,7 +12,6 @@ General styles
 
 html,body
 {
-    height: 100%;
     padding: 0;
     margin-bottom: 0;
 }
@@ -235,7 +234,7 @@ textarea{
     float:left;
 }
 
-input[type=password], input[type=text], input[type=submit], #sort, #create-route{
+input[type=password], input[type=text], input[type=submit], #sort, #create-route, .page-icon{
     border-radius: 1rem;
     height: 3rem;
     width: 16rem;
@@ -303,11 +302,11 @@ Predefined routes
 }
 
 #search-btn{
-    margin: 3em 0em;
+    margin: 2em 6em;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(2, 20rem);
-    place-items: center;
+    grid-template-columns: repeat(2, 30rem);
+
 }
 
 #search-sort-container{
@@ -341,5 +340,32 @@ Predefined routes
 .founders-container .card{
     padding: 0;
 }
+#page-container {
+    display: grid;
+    grid-template-columns: repeat(5, 3.5rem);
+    place-items: center;
+    justify-self: center;
+    grid-column: 2;
+    margin-top: 8rem;
+}
 
+.page-icon{
+    width: 3rem;
+    padding: 0;
+    background-color: white;
+}
+
+.page-double-arrow{
+    width: 1.5rem;
+    height: auto;
+}
+
+#arrow-image{
+    transform: rotate(180deg);
+
+}
+
+#page-number{
+    font-size: 1.25rem;
+}
 
