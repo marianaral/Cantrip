@@ -9,26 +9,45 @@
 
     <iframe src="header.html"></iframe>
     <main>
-    <div>
-        <h1>Route name</h1>
-    </div>
-
-
-    <section class="route-settings-container">
-        <div id="people-selector-container">
-            <p>4</p><img class="user-icon" src="media/user-icon.png">
-            <div id="arrows-selector">
-                <button class="route-page-arrow"><img src="media/pagination/ios-arrow-left.svg" id="arrow-number-people-image-up"></button>
-                <button class="route-page-arrow"><img src="media/pagination/ios-arrow-left.svg" id="arrow-number-people-image-down"></button>
+        <div>
+            <h1>Route name</h1>
+        </div>
+        <section class="route-settings-container">
+            <div id="people-selector-container">
+                <p>4</p><img class="user-icon" src="media/user-icon.png"/>
+                <div id="arrows-selector">
+                    <button class="route-page-arrow"><img src="media/pagination/ios-arrow-left.svg" id="arrow-number-people-image-up"/></button>
+                    <button class="route-page-arrow"><img src="media/pagination/ios-arrow-left.svg" id="arrow-number-people-image-down"/></button>
+                </div>
             </div>
+
+            <div class="datetime-selector-container">
+                <img class="user-icon" src="media/calendar-icon.png"><p>10/10/2022</p>
+            </div>
+            <div class="datetime-selector-container">
+                <img class="user-icon" src="media/clock-icon.png"><p>09:00</p>
+            </div>
+        </section>
+        <div id="route-template">
+            <section id="timetable">
+                <div class="exact-hour-container">
+                    <p class="exact-hour">09:00</p>
+                </div>
+                <div class="activity-container">
+                    <p class="activity-duration">09:00-09:45</p><p>Activity 1</p><button class="delete-btn">X</button>
+                </div>
+                <div class="exact-hour-container">
+                    <p class="exact-hour">10:00</p>
+                </div>
+                <div class="activity-container">
+                    <p class="activity-duration">10:00-10:30</p><p>Activity 2</p><button class="delete-btn">X</button>
+                </div>
+            </section>
+            <section id="map-container">
+                <img src="media/gran-canaria-image.png" id="map-image">
+            </section>
+            <button class="cart-btn"><img src="media/shoppingcart-icon.png" id="cart-img"></button>
         </div>
-
-        <div class="datetime-selector-container">
-            <p>4</p><img class="user-icon" src="media/user-icon.png">
-        </div>
-
-    </section>
-
 
     </main>
     <div class="footerPosition">
