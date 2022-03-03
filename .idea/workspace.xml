@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="" />
+    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Added pagination and fixed height and width for predefined routes.">
+      <change afterPath="$PROJECT_DIR$/media/raul-image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/simon-image.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/simon-image.JPG" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,18 +106,19 @@
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media\pagination" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="752b59f8-93e9-4d8f-9acb-c37c227bc9fe" name="Changes" comment="" />
       <created>1645873879796</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645873879796</updated>
       <workItem from="1645873880968" duration="12409000" />
+      <workItem from="1646075432064" duration="99000" />
+      <workItem from="1646331770473" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="Added pagination and fixed height and width for predefined routes.">
       <created>1646048898758</created>
