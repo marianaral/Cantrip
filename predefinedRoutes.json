@@ -1,0 +1,46 @@
+[
+  {
+    "routeName": "Ruta por Tejeda",
+    "numberOfPeople": 4,
+    "price": 30,
+    "thumbnailPath": "/media/predefinedRoutesImages/tejeda.png",
+    "dateAvailability": ["08/03/2022", "31/12/2022"],
+    "publishDate": "15/03/2022",
+    "activities": [5, 8, 15]
+  },
+
+  {
+    "routeName": "Ruta por Tejeda",
+    "numberOfPeople": 4,
+    "price": 30,
+    "thumbnailPath": "/media/predefinedRoutesImages/tejeda.png",
+    "dateAvailability": ["08/03/2022", "31/12/2022"],
+    "publishDate": "15/03/2022",
+    "activities": [5, 8, 15]
+  },
+
+  {
+    "routeName": "Ruta por Tejeda",
+    "numberOfPeople": 4,
+    "price": 30,
+    "thumbnailPath": "/media/predefinedRoutesImages/tejeda.png",
+    "dateAvailability": ["08/03/2022", "31/12/2022"],
+    "publishDate": "15/03/2022",
+    "activities": [5, 8, 15]
+  },
+
+
+  {
+    "routeName": "Ruta por Tejeda",
+    "numberOfPeople": 4,
+    "price": 30,
+    "thumbnailPath": "/media/predefinedRoutesImages/tejeda.png",
+    "dateAvailability": ["08/03/2022", "31/12/2022"],
+    "publishDate": "15/03/2022",
+    "activities": [5, 8, 15]
+  }
+
+
+
+
+]
