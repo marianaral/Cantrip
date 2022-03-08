@@ -236,7 +236,7 @@ textarea{
     float:left;
 }
 
-input[type=password], input[type=text], input[type=email], input[type=submit], #sort, #create-route, .page-icon, #people-selector-container, .datetime-selector-container{
+ input[type=submit], .input-element, #sort, #create-route, .page-icon, #people-selector-container, .datetime-selector-container{
     border-radius: 1rem;
     height: 3rem;
     width: 16rem;
