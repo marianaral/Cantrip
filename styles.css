@@ -486,3 +486,6 @@ Predefined routes
 
 }
 
+.validation-text:focus:required:invalid{
+    outline: indianred solid 1px;
+}
