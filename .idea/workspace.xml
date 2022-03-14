@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Updated predefinedRoutes.json: Adding more predefined routes.">
+    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/predefinedRoutes.json" beforeDir="false" afterPath="$PROJECT_DIR$/predefinedRoutes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routeActivities.json" beforeDir="false" afterPath="$PROJECT_DIR$/routeActivities.json" afterDir="false" />
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647256226335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities.">
+      <created>1647258199061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647258199061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -250,7 +257,8 @@
     <MESSAGE value="Added form validation to contactPage.html" />
     <MESSAGE value="predefinedRoutes.html style fixed" />
     <MESSAGE value="Updated predefinedRoutes.json: Adding more predefined routes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated predefinedRoutes.json: Adding more predefined routes." />
+    <MESSAGE value="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/user-icon.png">

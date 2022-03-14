@@ -2,7 +2,7 @@
   {
     "routeName": "Route through Tejeda",
     "numberOfPeople": 4,
-    "price": 20,
+    "price": 10,
     "thumbnailPath": "/media/predefinedRoutesImages/tejeda01.png",
     "dateAvailability": ["15/03/2022", "31/12/2022"],
     "publishDate": "15/03/2022",
@@ -41,7 +41,7 @@
   },
 
   {
-    "routeName": "Family route through Tejeda",
+    "routeName": "Family route through Cruz de los Llanos",
     "numberOfPeople": 4,
     "price": 10,
     "thumbnailPath": "/media/predefinedRoutesImages/tejeda_familiar01.png",
