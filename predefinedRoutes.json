@@ -1,6 +1,6 @@
 [
   {
-    "routeName": "Ruta por Tejeda",
+    "routeName": "Route through Tejeda",
     "numberOfPeople": 4,
     "price": 20,
     "thumbnailPath": "/media/predefinedRoutesImages/tejeda01.png",
@@ -10,7 +10,7 @@
   },
 
   {
-    "routeName": "Ruta por Arinaga",
+    "routeName": "Route through Arinaga",
     "numberOfPeople": 3,
     "price": 10,
     "thumbnailPath": "/media/predefinedRoutesImages/arinaga01.png",
@@ -20,7 +20,7 @@
   },
 
   {
-    "routeName": "Ruta acuática por Maspalomas",
+    "routeName": "Acuatic route through Maspalomas",
     "numberOfPeople": 4,
     "price": 30,
     "thumbnailPath": "/media/predefinedRoutesImages/maspalomas_acuatico01.png",
@@ -31,7 +31,7 @@
 
 
   {
-    "routeName": "Ruta romántica por el norte",
+    "routeName": "North Romantic Route",
     "numberOfPeople": 2,
     "price": 30,
     "thumbnailPath": "/media/predefinedRoutesImages/norte_romantica01.png",
@@ -41,7 +41,7 @@
   },
 
   {
-    "routeName": "Ruta familiar por Tejeda",
+    "routeName": "Family route through Tejeda",
     "numberOfPeople": 4,
     "price": 10,
     "thumbnailPath": "/media/predefinedRoutesImages/tejeda_familiar01.png",
@@ -51,7 +51,7 @@
   },
 
   {
-    "routeName": "Ruta de Carnaval",
+    "routeName": "Carnival Route",
     "numberOfPeople": 4,
     "price": 20,
     "thumbnailPath": "/media/predefinedRoutesImages/carnaval01.png",
