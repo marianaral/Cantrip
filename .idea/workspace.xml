@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities.">
+    <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Updated routeActivities.json: Added new activities.">
+      <change afterPath="$PROJECT_DIR$/dataManagement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predefinedRoutes.json" beforeDir="false" afterPath="$PROJECT_DIR$/predefinedRoutes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeActivities.json" beforeDir="false" afterPath="$PROJECT_DIR$/routeActivities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predefinedRoutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/predefinedRoutes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Entrar\PycharmProjects\Cantrip" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media\pagination" />
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647258199061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated routeActivities.json: Added new activities.">
+      <created>1647259937391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647259937391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -258,7 +266,8 @@
     <MESSAGE value="predefinedRoutes.html style fixed" />
     <MESSAGE value="Updated predefinedRoutes.json: Adding more predefined routes." />
     <MESSAGE value="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated predefinedRoutes.json: Translated route names. Updated routeActivities.json: Added new activities." />
+    <MESSAGE value="Updated routeActivities.json: Added new activities." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated routeActivities.json: Added new activities." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/user-icon.png">
