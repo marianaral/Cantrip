@@ -1,4 +1,8 @@
-<script type="text/javascript">
+const routeActivities = require('./routeActivities.json');
 
-const jsonData= require('predefinedRoutes.json');
-return jsonData;
+
+function getRouteActivities() {
+    for (let i = 0; i < routeActivities.length; i++) {
+        console.log(`id: ${routeActivities[i].activityId}, name:${routeActivities[i].activityName}`)
+    }
+}

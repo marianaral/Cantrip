@@ -26,36 +26,25 @@
         </div>
     </section>
     <main class="search-container">
-        <a href="routePage.html" class="card">
-            <article >
-                <p>Route name</p>
-                <img class="outstanding-routes-img" src="media/water-park-image.jpg" alt="most rated image">
-                <div class="route-info">
-                    <p>5<img class="user-icon" src="media/user-icon.png"></p>
-                    <p>35€</p>
-                </div>
-            </article>
-        </a>
-        <a href="routePage.html" class="card">
-            <article >
-                <p>Route name</p>
-                <img class="outstanding-routes-img" src="media/water-park-image.jpg" alt="most rated image">
-                <div class="route-info">
-                    <p>5<img class="user-icon" src="media/user-icon.png"></p>
-                    <p>35€</p>
-                </div>
-            </article>
-        </a>
-        <a href="routePage.html" class="card">
-            <article >
-                <p>Route name</p>
-                <img class="outstanding-routes-img" src="media/water-park-image.jpg" alt="most rated image">
-                <div class="route-info">
-                    <p>5<img class="user-icon" src="media/user-icon.png"></p>
-                    <p>35€</p>
-                </div>
-            </article>
-        </a>
+
+        <script type="text/javascript">
+            const routeActivities = require('./routeActivities.json');
+            console.log(routeActivities);
+            let k = null;
+            for (let i = 0; i < routeActivities.lenght; i++){
+                k += '<a href="routePage.html" className="card">';
+                k += '<article>';
+                k += '<p>' + routeActivities.activityName + '<p>';
+                k += '<img className="outstanding-routes-img" src="media/water-park-image.jpg" alt="most rated image">';
+                k += '<div className="route-info">';
+                k += '<p>' + routeActivities.numberOfPeople + '<img class="user-icon" src="media/user-icon.png"></p>';
+                k += '<p>' + routeActivities.price + '</p>';
+                k += '<div>'
+                k += '<article>'
+                k += '</a>'
+            }
+        </script>
+
         <section id="page-container">
             <button class="page-icon"><img src="media/pagination/double-arrow-left.svg" class="page-double-arrow"></button>
             <button class="page-icon"><img src="media/pagination/ios-arrow-left.svg"></button>
