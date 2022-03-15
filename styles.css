@@ -40,16 +40,15 @@ iframe {
     color: black;
 }
 
-.content-container{
-    height: 83.9vh;
+
+#social-media-container{
+    display: flex;
+    justify-content: space-around;
 }
 
 .social-logo-img{
     width: 3rem;
     height: auto;
-    margin-right: 15em;
-    margin-left: 15em;
-    margin-top:1em;
 }
 
 .outstanding-routes-img, .founder-image{
@@ -63,7 +62,7 @@ iframe {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2rem;
     width: 15vw;
-    height: 35vh;
+    height: 30vh;
     text-align: center;
     padding-top: 2rem;
     justify-self: center;
@@ -72,10 +71,9 @@ iframe {
 }
 
 .outstanding-routes-container, .founders-container, .search-container{
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 3rem;
-    height: 47.8vh;
 
 }
 
@@ -83,22 +81,25 @@ footer{
     background-color: #ffcb69;
     text-align: center;
     width: 100%;
-    height:100vh;
+    height:auto;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    bottom:0
+    padding: 1rem 0rem;
+
 }
 
 .footerPosition{
-    width: 100%;
     position: absolute;
     border: none;
+    width: 100%;
     bottom:0;
-
 }
 
 .footerPosition iframe{
     position: absolute;
-    bottom:0
+    bottom: 0;
 }
 
 .menu{
@@ -483,6 +484,25 @@ Predefined routes
 #cart-img{
     width: 3rem;
     height: auto;
+
+}
+
+@media (max-width: 1099px){ /*tablet landscape*/
+    #carousel:after{
+        content: "Discover our routes";
+        font-weight: bold;
+        text-align: center;
+        /*display: none;*/
+    }
+    .carousel-img{
+        display: none;
+    }
+
+    .content-container{
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
