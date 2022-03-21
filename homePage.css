@@ -21,9 +21,20 @@
     }
 
     .content-container{
-        padding-top: 7rem;
+        padding-top: 3rem;
         display: flex;
         flex-direction: column;
+    }
+
+    .card{
+        width: 20vw;
+    }
+
+    .outstanding-routes-img{
+        width: 15vw;
+        height: 20vh;
+        object-fit: cover;
+        margin-top: 1rem;
     }
 
 }
