@@ -8,3 +8,33 @@
     grid-column: 2;
     border-radius: 2rem;
 }
+
+@media (max-width: 1099px){ /*tablet landscape*/
+    #carousel:after{
+        content: "Discover our routes";
+        font-weight: bold;
+        text-align: center;
+        /*display: none;*/
+    }
+    .carousel-img{
+        display: none;
+    }
+
+    .content-container{
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 20vw;
+    }
+
+    .outstanding-routes-img{
+        width: 15vw;
+        height: 20vh;
+        object-fit: cover;
+        margin-top: 1rem;
+    }
+
+}
