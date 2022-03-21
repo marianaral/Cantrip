@@ -22,3 +22,12 @@
     align-self: center;
     justify-self: center;
 }
+
+.burger-menu{
+    display: none;
+}
+@media (max-width: 767px) {   /* Tablet portrait*/
+    .burger-menu{
+        display: inline;
+    }
+}
