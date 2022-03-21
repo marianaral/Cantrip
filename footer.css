@@ -1,0 +1,9 @@
+#social-media-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-logo-img{
+    width: 3rem;
+    height: auto;
+}

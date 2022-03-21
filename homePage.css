@@ -1,0 +1,10 @@
+/*Index.html*/
+#carousel {
+    display: grid;
+
+}
+
+.carousel-img{
+    grid-column: 2;
+    border-radius: 2rem;
+}

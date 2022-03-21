@@ -16,13 +16,9 @@ html,body
     margin-bottom: 0;
 }
 
-h1, .subtitle{
+h1 {
     text-align: center;
 
-}
-/*Index.html*/
-.subtitle{
-    margin-top:2em;
 }
 
 iframe {
@@ -32,26 +28,7 @@ iframe {
 
 }
 
-.company-name{
-    font-family: 'Pacifico', 'Arial';
-    float:left;
-    margin-left: 3rem;
-    font-size: 3em;
-    color: black;
-}
-
-
-#social-media-container{
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-logo-img{
-    width: 3rem;
-    height: auto;
-}
-
-.outstanding-routes-img, .founder-image{
+.outstanding-routes-img{
     width: 10vw;
     height: auto;
     margin-top: 2rem;
@@ -64,13 +41,13 @@ iframe {
     width: 15vw;
     height: 30vh;
     text-align: center;
-    padding-top: 2rem;
     justify-self: center;
     text-decoration: none;
     color: black;
+    padding: 2rem 0 0 0;
 }
 
-.outstanding-routes-container, .founders-container, .search-container{
+.outstanding-routes-container{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,93 +79,9 @@ footer{
     bottom: 0;
 }
 
-.menu{
-    float: right;
-    margin-right: 3rem;
-    margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(4, 10em);
-}
-
-.menu-link{
-    margin-left: 2rem;
-    color: black;
-    text-decoration: none;
-    align-self: center;
-    justify-self: center;
-}
-
-.about-us-container{
-    text-align: center;
-}
-
-#carousel {
-    display: grid;
-
-}
-
-.carousel-img{
-    grid-column: 2;
-    border-radius: 2rem;
-}
 
 
-
-/*-----------------
-profilePage styles
-------------------*/
-
-#profileContainer{
-    text-align: center;
-    position:relative;
-    width: 100%;
-}
-
-#profileContainer img{
-    height:15em;
-    width:15em;
-    border-radius: 50%;
-}
-
-#editImageContainer{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top:30%;
-}
-
-#nameContainer {
-    margin-top:5em;
-    text-align: center;
-    display:inline-block;
-    position:relative;
-    width:100%
-}
-
-.button{
-    width:100%;
-    text-align: center;
-}
-
-iframe{
-    border: none;
-    width: 100%;
-}
 /*Forms and inputs*/
-.formElement{
-    height:2em;
-    margin-top: 0.2em;
-}
-
-.formElement label, .formMessage label{
-    font-size: 0.5em;
-    margin-left:40em;
-    width: 10%;
-    float:left;
-    padding-top: 0.3em;
-    height: 100%;
-
-}
 
 .formContainer{
     text-align: center;
@@ -197,47 +90,12 @@ iframe{
 
 }
 
-#nameContainer input[type=image]{
-    background-color:transparent;
-    border:0;
-    width:1.2em;
-    height: 1.2em;
-    position: absolute;
-    top:25%;
-    left:56%;
-}
-
-.formMessage{
-    margin-top: 0.5em;
-    height: 7.5em;
-    margin-bottom: 1.5em;
-}
-
-
-#editImageContainer input {
-    height: 40%;
-    width: auto;
-}
-
-textarea{
-    width: 35em;
-    height: 15em;
-    resize: none;
-    padding: 1em;
-
-    border-radius: 1rem;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    color:black;
-    float: left;
-}
-
 .formElement input {
     width: 30em;
     float:left;
 }
 
-input[type=password], input[type=text], input[type=submit], #sort, #create-route, .page-icon, #people-selector-container, .datetime-selector-container{
+.input_overlay{
     border-radius: 1rem;
     height: 3rem;
     width: 16rem;
@@ -249,13 +107,17 @@ input[type=password], input[type=text], input[type=submit], #sort, #create-route
 }
 
 
-input[type=submit], #sort, #create-route{
+.input_overlay_submit, #create-route{
     border-radius: 0.5rem;
     width: 12rem;
+    height: 3rem;
+    border: none;
     font-size: 1.1rem;
     background-color: #00B4D8;
     color: white;
     box-shadow: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 ::-webkit-input-placeholder {
@@ -269,223 +131,7 @@ input[type=submit], #sort, #create-route{
     color: #C4C4C4;
 }
 
-/*Login*/
-.login-header{
-    width: 100%;
-    height: 10rem;
-    margin-bottom: 7rem;
-}
 
-/*---------------
-Predefined routes
-----------------*/
-.menu-profile{
-    width: 6em;
-    height: auto;
-    border-radius: 50%;
-    margin-left: 5em;
-    float: right;
-    align-self: center;
-}
-
-.menu-logged-in{
-    margin-right: 3rem;
-    margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(5, 10em);
-    justify-content: end;
-}
-
-#create-route{
-    margin-left: 5rem;
-    background-color: #ffcb69;
-    color: black;
-}
-
-#sort{
-    width: 6em;
-}
-
-#search-btn{
-    margin: 2em 6em;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 30rem);
-
-}
-
-#search-sort-container{
-    display: grid;
-    grid-template-columns: repeat(2, 20rem);
-}
-
-.search-container{
-    display: grid;
-}
-
-.route-info{
-    display: grid;
-    grid-template-columns: repeat(2, 5rem);
-    justify-content: space-evenly;
-    place-items: center;
-    margin-top: 1rem;
-
-}
-
-.user-icon{
-    width: 1rem;
-    height: auto;
-    margin-left: 0.5rem;
-}
-
-.search-container .card{
-    height: 40vh;
-}
-
-.founders-container .card{
-    padding: 0;
-}
-#page-container {
-    display: grid;
-    grid-template-columns: repeat(5, 3.5rem);
-    place-items: center;
-    justify-self: center;
-    grid-column: 2;
-    margin-top: 8rem;
-}
-
-.page-icon{
-    width: 3rem;
-    padding: 0;
-    background-color: white;
-}
-
-.page-double-arrow{
-    width: 1.5rem;
-    height: auto;
-}
-
-#arrow-image{
-    transform: rotate(180deg);
-
-}
-
-#page-number{
-    font-size: 1.25rem;
-}
-/*RoutePage*/
-.route-settings-container{
-    display: grid;
-    grid-template-columns: repeat(3, fit-content(33%));
-    place-items: center;
-    margin-left: 6rem;
-
-}
-
-#people-selector-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1.5rem);
-    place-items: center;
-    width: 5rem;
-}
-
-#arrow-number-people-image-up{
-    transform: rotate(90deg);
-    width: 1rem;
-    height: auto;
-}
-#arrow-number-people-image-down{
-    transform: rotate(-90deg);
-    width: 1rem;
-    height: auto;
-}
-.route-page-arrow{
-    display: grid;
-    margin-left: 1rem;
-    border: none;
-    background-color: white;
-}
-
-.datetime-selector-container{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    place-items: center;
-    width: 8rem;
-    margin-left: 2rem;
-}
-
-#map-container{
-    float: right;
-
-}
-
-#map-image{
-    width: 40rem;
-    height:auto;
-}
-
-#timetable{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    height: 30rem;
-    width: 35rem;
-    border-radius: 2rem;
-    text-align: center;
-    padding-top: 2rem;
-    padding-left: 1rem;
-
-}
-
-#route-template{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    place-items: center;
-    margin-top: 5rem;
-    position: relative;
-}
-
-.exact-hour{
-    background-color: #ffcb69;
-    border-radius: 1rem;
-    width: 5rem;
-    padding: 0.8rem;
-    justify-self: center;
-    text-align: center;
-}
-.exact-hour-container{
-    display: grid;
-}
-
-.activity-container{
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    place-items: center;
-    margin: 2rem 0;
-}
-
-.delete-btn{
-    border: none;
-    background-color: white;
-}
-
-.cart-btn{
-    float: right;
-    border:none;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    background-color: #00B4D8;
-    margin-right: 5rem;
-    position: absolute;
-    justify-self: end;
-    align-self: end;
-
-}
-
-#cart-img{
-    width: 3rem;
-    height: auto;
-
-}
 
 @media (max-width: 1099px){ /*tablet landscape*/
     #carousel:after{
@@ -506,3 +152,8 @@ Predefined routes
 
 }
 
+.user-icon{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}

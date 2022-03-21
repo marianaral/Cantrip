@@ -1,0 +1,91 @@
+.search-container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 40vh;
+
+}
+
+.page-icon{
+    width: 3rem;
+    padding: 0;
+    background-color: white;
+}
+
+#create-route{
+    margin-left: 5rem;
+    background-color: #ffcb69;
+    color: black;
+}
+
+
+#page-container {
+    display: grid;
+    grid-template-columns: repeat(5, 3.5rem);
+    place-items: center;
+    justify-self: center;
+    grid-column: 2;
+    margin-top: 8rem;
+}
+
+
+
+.page-double-arrow{
+    width: 1.5rem;
+    height: auto;
+}
+
+#arrow-image{
+    transform: rotate(180deg);
+
+}
+
+#page-number{
+    font-size: 1.25rem;
+}
+
+.input_overlay_submit{
+    width: 6em;
+}
+
+.menu-profile{
+    width: 6em;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 5em;
+    float: right;
+    align-self: center;
+}
+
+.menu-logged-in{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 10em);
+    justify-content: end;
+}
+
+
+#search-btn{
+    margin: 2em 6em;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 30rem);
+
+}
+
+#search-sort-container{
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
+}
+
+
+.route-info{
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    justify-content: space-evenly;
+    place-items: center;
+    margin-top: 1rem;
+
+}
+

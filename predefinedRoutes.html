@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Search routes</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="predefinedRoutes.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,13 +19,14 @@
         </nav>
     </header>
     <section id="search-btn">
-        <a href="routePage.html"><button id="create-route">Create your own</button></a>
+        <a href="routePage.html"><button class="input_overlay" id="create-route">Create your own</button></a>
         <div id="search-sort-container">
-            <input type="text" placeholder="search..." />
-            <button id="sort">Sort</button>
+            <input type="text" class="input_overlay" placeholder="search..." />
+            <button class="input_overlay_submit">Sort</button>
         </div>
     </section>
     <main class="search-container">
+
         <a href="routePage.html" class="card">
             <article >
                 <p>Route name</p>
@@ -55,11 +58,11 @@
             </article>
         </a>
         <section id="page-container">
-            <button class="page-icon"><img src="media/pagination/double-arrow-left.svg" class="page-double-arrow"></button>
-            <button class="page-icon"><img src="media/pagination/ios-arrow-left.svg"></button>
+            <button class="input_overlay page-icon"><img src="media/pagination/double-arrow-left.svg" class="page-double-arrow"></button>
+            <button class="input_overlay page-icon"><img src="media/pagination/ios-arrow-left.svg"></button>
             <p id="page-number">1</p>
-            <button class="page-icon"><img src="media/pagination/ios-arrow-left.svg" id="arrow-image"></button>
-            <button class="page-icon"><img src="media/pagination/double-arrow-right.svg" class="page-double-arrow"></button>
+            <button class="input_overlay page-icon"><img src="media/pagination/ios-arrow-left.svg" id="arrow-image"></button>
+            <button class="input_overlay page-icon"><img src="media/pagination/double-arrow-right.svg" class="page-double-arrow"></button>
         </section>
     </main>
     <div class="footerPosition">
