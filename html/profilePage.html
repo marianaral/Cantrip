@@ -9,25 +9,25 @@
 <body>
     <iframe src="header.html"></iframe>
     <main>
-        <section id="profileContainer">
-            <div>
-                <img src="../media/user.jpg">
-            </div>
-            <div id="editImageContainer">
+        <section class="profileContainer">
+            <img src="../media/user.jpg">
+            <div class="editImageContainer">
                 <input class="editImageInput" type="image" src="../media/edit-icon.png" />
             </div>
         </section>
 
-        <section id="nameContainer">
-            <input placeholder="la.gaviota101@alu.ulpgc.es" type="text"  disabled/>
-            <input type="image" src="../media/edit-icon.png" />
+        <section class="email_container">
+            <div class="email_element input_overlay">
+                <input placeholder="test@alu.ulpgc.es" type="text"/>
+                <img src="../media/edit-icon.png" />
+            </div>
         </section>
-        <br>
-        <br>
-        <div class="button">
-            <input type="submit" value="Change password"/>
+        
+        <div class="password_button">
+            <input type="submit" class="input_overlay_submit" value="Change password"/>
         </div>
     </main>
+
     <div class="footerPosition">
         <iframe src="footer.html"></iframe>
     </div>
