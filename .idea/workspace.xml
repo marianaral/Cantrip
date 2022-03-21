@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/media/img-carousel-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +55,13 @@
       <find>use</find>
     </findStrings>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="HomePageResponsive" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="mediaQueries" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,7 +105,9 @@
     <option name="height" value="944" />
   </component>
   <component name="ProjectId" id="25e3lvUGCD0QDeiPgy3N0QevaA4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -124,6 +132,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -136,6 +145,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media\pagination" />
@@ -240,6 +251,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added pagination and fixed height and width for predefined routes." />
     <option name="LAST_COMMIT_MESSAGE" value="Added pagination and fixed height and width for predefined routes." />
   </component>

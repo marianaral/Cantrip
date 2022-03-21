@@ -1,22 +1,23 @@
 /*Index.html*/
-#carousel {
+#myCarousel {
     display: grid;
+
+    object-fit: cover;
 
 }
 
-.carousel-img{
-    grid-column: 2;
-    border-radius: 2rem;
+.carousel-inner{
+
+    object-fit: cover;
 }
 
 @media (max-width: 1099px){ /*tablet landscape*/
-    #carousel:after{
+    #myCarousel:after{
         content: "Discover our routes";
         font-weight: bold;
         text-align: center;
-        /*display: none;*/
     }
-    .carousel-img{
+    .carousel-inner, .carousel-control{
         display: none;
     }
 
@@ -36,5 +37,22 @@
         object-fit: cover;
         margin-top: 1rem;
     }
+
+}
+
+@media (max-width: 767px){ /* Tablet portrait*/
+    .carousel-inner, .carousel-control{
+        display: grid;
+        grid-column: 1;
+        border-radius: 2rem;
+
+    }
+
+    #carousel {
+        display: grid;
+
+    }
+
+
 
 }
