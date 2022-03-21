@@ -8,3 +8,22 @@
     grid-column: 2;
     border-radius: 2rem;
 }
+
+@media (max-width: 1099px){ /*tablet landscape*/
+    #carousel:after{
+        content: "Discover our routes";
+        font-weight: bold;
+        text-align: center;
+        /*display: none;*/
+    }
+    .carousel-img{
+        display: none;
+    }
+
+    .content-container{
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
