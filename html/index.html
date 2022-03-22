@@ -11,15 +11,17 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     >
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 <body>
-    <iframe src="header.html"></iframe>
+    <div id="header"></div>
+    <!-- <iframe src="header.html"></iframe> -->
     <main class="content-container" >
-        <!--<div id="myCarousel">
-
-           <img class="carousel-img" src="../media/dunas-image.jpeg">
-       </div>-->
         <div class="carousel-container">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -73,7 +75,7 @@
         </section>
     </main>
     <div class="footerPosition">
-        <iframe src="footer.html"></iframe>
+        <div id="footer"></div>
     </div>
 </body>
 </html>

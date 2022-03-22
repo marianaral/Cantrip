@@ -1,17 +1,37 @@
 .menu{
     margin-right: 3rem;
     margin-top: 1.5rem;
+
+}
+.nav-container{
+    float: right;
     display: grid;
     grid-template-columns: repeat(4, 10em);
-    justify-self: end;
+
 }
 
-.company-name{
+.company-name, .navbar-brand{
     font-family: 'Pacifico', 'Arial';
-    float:left; !important;
+    float:left;
     margin-left: 3rem;
     font-size: 3em;
     color: black;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-top: 2rem ;
+}
+
+.collapse.in{
+    display: flex !important;
+    justify-content: end;
+}
+
+.nav-item{
+    list-style: none;
 }
 
 .menu-link{
@@ -20,23 +40,38 @@
     text-decoration: none;
     align-self: center;
     justify-self: center;
+    font-size: 1.5rem;
+
+}
+
+.navbar-nav > li > a{
+    text-decoration: nonegi;
 }
 
 .burger-menu{
     display: none;
 }
+
+
 @media (max-width: 767px) {   /* Tablet portrait*/
     .burger-menu{
         display: inline;
+
+
     }
     .menu{
         display: none;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         background-image: url("../media/menu.png");
         width: 2rem;
         height: 2rem;
         display: block;
     }
+
+    .navbar-brand{
+        font-size: 3rem !important;
+    }
+
 }
