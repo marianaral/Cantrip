@@ -30,4 +30,7 @@
     .burger-menu{
         display: inline;
     }
+    .menu{
+        display: none;
+    }
 }
