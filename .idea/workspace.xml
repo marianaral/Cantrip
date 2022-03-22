@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Added pagination and fixed height and width for predefined routes.">
+      <change afterPath="$PROJECT_DIR$/media/menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/header.html" afterDir="false" />
@@ -98,7 +99,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="576" />
@@ -147,9 +148,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media" />
       <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media\pagination" />
     </key>
@@ -169,7 +170,8 @@
       <workItem from="1646075432064" duration="99000" />
       <workItem from="1646331770473" duration="1033000" />
       <workItem from="1647335425242" duration="4211000" />
-      <workItem from="1647935633353" duration="369000" />
+      <workItem from="1647935633353" duration="463000" />
+      <workItem from="1647938747670" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="Added pagination and fixed height and width for predefined routes.">
       <created>1646048898758</created>
