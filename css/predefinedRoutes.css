@@ -1,16 +1,14 @@
 .search-container{
     margin-top: 3rem;
+    position: relative;
+    margin-bottom: 9rem;
+}
+.routes-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 40vh;
-
+    min-height: 100%;
 }
 
-.page-icon{
-    width: 3rem;
-    padding: 0;
-    background-color: white;
-}
 
 #create-route{
     margin-left: 5rem;
@@ -23,12 +21,9 @@
     display: grid;
     grid-template-columns: repeat(5, 3.5rem);
     place-items: center;
-    justify-self: center;
-    grid-column: 2;
+    justify-content: center;
     margin-top: 8rem;
 }
-
-
 
 .page-double-arrow{
     width: 1.5rem;
@@ -44,10 +39,6 @@
     font-size: 1.25rem;
 }
 
-.input_overlay_submit{
-    width: 6em;
-}
-
 .menu-profile{
     width: 6em;
     height: auto;
@@ -56,15 +47,6 @@
     float: right;
     align-self: center;
 }
-
-.menu-logged-in{
-    margin-right: 3rem;
-    margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(5, 10em);
-    justify-content: end;
-}
-
 
 #search-btn{
     margin: 2em 6em;
@@ -81,11 +63,159 @@
 
 
 .route-info{
-    display: grid;
-    grid-template-columns: repeat(2, 5rem);
+    display: flex;
     justify-content: space-evenly;
-    place-items: center;
+    align-self: end;
+}
+
+.outstanding-routes-img{
+    margin-top: 1rem !important;
+    width: 90% !important;
+    object-fit: cover;
+}
+
+.menu-link{
+    font-size: 1.5rem !important;
+}
+
+.page-icon{
+    width: 3rem !important;
+    padding: 0;
+    background-color: white;
+}
+
+
+.dropdown-item .menu-profile{
+    width: 10vw !important;
+}
+
+.company-name{
     margin-top: 1rem;
+}
+
+#header-login-global{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1099px){ /*tablet landscape*/
+
+    .company-name{
+        font-size: 1.7rem !important;
+    }
+
+    .outstanding-routes-img{
+        width: 90%;
+        object-fit: cover;
+    }
+
+    .menu-link{
+        font-size: 1rem !important;
+    }
+
+    .card {
+        width: 20vw !important;
+
+    }
+    .input_overlay_submit{
+        width: auto !important;
+    }
+
+
+    #search-btn{
+        display: flex;
+
+    }
+
+    .page-icon{
+        width: 3rem !important;
+    }
+
+    #search-sort-container{
+        display: flex;
+
+    }
+
+    #search-sort-container > .input_overlay{
+        margin-right: 1rem;
+    }
+
+    #create-route{
+        margin-left: 1rem !important;
+    }
+
+    .routes-container{
+        display: flex;
+        width: 100%;
+
+        justify-content: space-evenly;
+    }
+
+    #page-container{
+        margin-top: 2rem;
+    }
+
 
 }
 
+@media (max-width: 767px){ /* Tablet portrait*/
+
+    .menu-profile{
+        width: 20% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        float: none;
+    }
+
+    #card-to-remove{
+        display: none;
+    }
+
+    .card {
+        width: 30vw !important;
+    }
+
+    .outstanding-routes-img{
+        width: 25vw !important;
+    }
+
+    #search-btn{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #search-sort-container{
+        justify-content: center;
+        margin-top: 2rem;
+        order: 1;
+    }
+
+}
+
+@media (max-width: 575px) {  /* Mobile portrait*/
+
+    .routes-container{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .card{
+        width: 60vw !important;
+        height: 40vh !important;
+        margin-bottom: 3rem;
+
+
+    }
+
+    .outstanding-routes-img{
+        width: 50vw !important;
+        height: 30vh !important;
+        margin: 0 !important;
+    }
+
+    #card-to-remove{
+        display: block;
+    }
+}
