@@ -1,0 +1,47 @@
+#profileContainer{
+    text-align: center;
+    position:relative;
+    width: 100%;
+}
+
+#profileContainer img{
+    height:15em;
+    width:15em;
+    border-radius: 50%;
+}
+
+#editImageContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:30%;
+}
+
+#nameContainer {
+    margin-top:5em;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    width:100%
+}
+
+
+.button{
+    width:100%;
+    text-align: center;
+}
+
+#nameContainer input[type=image]{
+    background-color:transparent;
+    border:0;
+    width:1.2em;
+    height: 1.2em;
+    position: absolute;
+    top:25%;
+    left:56%;
+}
+
+#editImageContainer input {
+    height: 40%;
+    width: auto;
+}

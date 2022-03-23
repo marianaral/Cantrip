@@ -1,0 +1,121 @@
+.datetime-selector-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+#people-selector-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1.5rem);
+    place-items: center;
+    width: 5rem;
+}
+
+#arrow-number-people-image-up{
+    transform: rotate(90deg);
+    width: 1rem;
+    height: auto;
+}
+#arrow-number-people-image-down{
+    transform: rotate(-90deg);
+    width: 1rem;
+    height: auto;
+}
+
+/*RoutePage*/
+.route-settings-container{
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(33%));
+    place-items: center;
+    margin-left: 6rem;
+
+}
+
+
+
+.route-page-arrow{
+    display: grid;
+    margin-left: 1rem;
+    border: none;
+    background-color: white;
+}
+
+
+
+#map-container{
+    float: right;
+
+}
+
+#map-image{
+    width: 40rem;
+    height:auto;
+}
+
+#timetable{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 30rem;
+    width: 35rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+}
+
+#route-template{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    place-items: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.exact-hour{
+    background-color: #ffcb69;
+    border-radius: 1rem;
+    width: 5rem;
+    padding: 0.8rem;
+    justify-self: center;
+    text-align: center;
+}
+.exact-hour-container{
+    display: grid;
+}
+
+.activity-container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    place-items: center;
+    margin: 2rem 0;
+}
+
+.delete-btn{
+    border: none;
+    background-color: white;
+}
+
+.cart-btn{
+    float: right;
+    border:none;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #00B4D8;
+    margin-right: 5rem;
+    position: absolute;
+    justify-self: end;
+    align-self: end;
+
+}
+
+#cart-img{
+    width: 3rem;
+    height: auto;
+
+}
+
+
+

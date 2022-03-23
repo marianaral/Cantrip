@@ -1,0 +1,38 @@
+.formElement{
+    height:2em;
+    margin-top: 0.2em;
+}
+
+.formElement label, .formMessage label{
+    font-size: 0.5em;
+    margin-left:40em;
+    width: 10%;
+    float:left;
+    padding-top: 0.3em;
+    height: 100%;
+
+}
+
+.formMessage{
+    margin-top: 0.5em;
+    height: 7.5em;
+    margin-bottom: 1.5em;
+}
+
+.subtitle{
+    margin-top:2em;
+    text-align: center;
+}
+
+textarea{
+    width: 35em;
+    height: 15em;
+    resize: none;
+    padding: 1em;
+
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:black;
+    float: left;
+}
