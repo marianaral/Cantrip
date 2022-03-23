@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Added pagination and fixed height and width for predefined routes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/predefinedRoutes.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/predefinedRoutes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/predefinedRoutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/predefinedRoutes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

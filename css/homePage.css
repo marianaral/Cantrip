@@ -22,6 +22,7 @@
 }
 
 
+
 @media (max-width: 1099px){ /*tablet landscape*/
     .carousel-inner, .carousel-control{
         display: none;

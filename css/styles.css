@@ -39,6 +39,12 @@ h1 {
     text-decoration: none;
     color: black;
     padding: 2rem 0 0 0;
+    box-sizing: content-box;
+}
+
+.card p{
+    text-decoration: none;
+    color: black;
 }
 
 .outstanding-routes-container{
