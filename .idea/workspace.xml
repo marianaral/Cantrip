@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Added pagination and fixed height and width for predefined routes.">
-      <change beforePath="$PROJECT_DIR$/html/aboutUsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/aboutUsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contactPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contactPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/loginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/passwordPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/passwordPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/profilePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/profilePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/registerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registerPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/routePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/routePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/arinaga01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/carnaval01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/maspalomas_acuatico01.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/norte_romantica01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/tejeda01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/predefinedRoutesImages/tejeda_familiar01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dataManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/predefinedRoutes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/predefinedRoutes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predefinedRoutes.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/predefinedRoutes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routeActivities.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/routeActivities.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,12 +155,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/JSON" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media" />
-      <recent name="C:\Users\Entrar\WebstormProjects\Cantrip\media\pagination" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dataManagement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/dataManagement.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.dataManagement.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
