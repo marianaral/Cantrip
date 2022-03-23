@@ -76,15 +76,15 @@
     }
 
     .card{
-        width: 30rem;
-        height: 50vh;
+        width: 50vw !important;
+        height: 50vh !important;
         margin-bottom: 3rem;
-        border-radius: 4rem;
+
     }
 
     .outstanding-routes-img{
-        width: 40vw;
-        height: 40vh;
+        width: 40vw !important;
+        height: 40vh !important;
 
     }
 
