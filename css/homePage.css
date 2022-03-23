@@ -1,22 +1,29 @@
 /*Index.html*/
-#carousel {
-    display: grid;
-
+.content-container{
+    position: relative;
+    min-height: 100%;
 }
 
-.carousel-img{
-    grid-column: 2;
+.carousel-inner > .item > img {
+    width: 60vw !important;
+    height: 40vh !important;
+    object-fit: cover;
     border-radius: 2rem;
 }
 
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-control{
+    border-radius: 2rem;
+}
+
+
 @media (max-width: 1099px){ /*tablet landscape*/
-    #carousel:after{
-        content: "Discover our routes";
-        font-weight: bold;
-        text-align: center;
-        /*display: none;*/
-    }
-    .carousel-img{
+    .carousel-inner, .carousel-control{
         display: none;
     }
 
@@ -24,17 +31,60 @@
         padding-top: 3rem;
         display: flex;
         flex-direction: column;
-    }
-
-    .card{
-        width: 20vw;
+        width: 100%;
     }
 
     .outstanding-routes-img{
-        width: 15vw;
-        height: 20vh;
+        width: 90% !important;
         object-fit: cover;
         margin-top: 1rem;
+    }
+
+
+    .card {
+        width: 20rem !important;
+
+    }
+
+}
+
+@media (max-width: 767px){ /* Tablet portrait*/
+    .carousel-inner > .item > img {
+        width: 70vw !important;
+        height: 30vh !important;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .carousel-inner, .carousel-control{
+        display: flex;
+    }
+    .card {
+        width: 10rem !important;
+
+    }
+}
+
+@media (max-width: 575px) {  /* Mobile portrait*/
+    .carousel-inner, .carousel-control{
+        display: none;
+    }
+
+    .outstanding-routes-container{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .card{
+        width: 60vw !important;
+        height: 40vh !important;
+        margin-bottom: 3rem;
+
+    }
+
+    .outstanding-routes-img{
+        width: 50vw !important;
+        height: 30vh !important;
     }
 
 }
