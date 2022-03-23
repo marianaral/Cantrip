@@ -1,0 +1,191 @@
+[
+  {
+    "activityName": "Visit Soco Negro",
+    "activityId": 1,
+    "numberOfPeople": 1,
+    "price": 2,
+    "activityType": "swim",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00"],
+    "timeDuration": 2,
+    "maxConcurrentActivities": 2
+  },
+  {
+    "activityName": "route",
+    "activityId": 2,
+    "numberOfPeople": 1,
+    "price": 2,
+    "activityType": "swim",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 2,
+    "maxConcurrentActivities": 2
+  },
+  {
+    "activityName": "Visit Mirador Risco Verde",
+    "activityId": 3,
+    "numberOfPeople": 2,
+    "price": 2,
+    "activityType": "landscape",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 4
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 4,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Visit Historic Center of Tejeda",
+    "activityId": 5,
+    "numberOfPeople": 1,
+    "price": 2,
+    "activityType": "museum",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 6,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 7,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Medicinal Plants Center Tejeda",
+    "activityId": 8,
+    "numberOfPeople": 1,
+    "price": 3,
+    "activityType": "museum",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 9,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 10,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 11,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 12,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 13,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 14,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Walk through Cruz de Tejeda",
+    "activityId": 15,
+    "numberOfPeople": 2,
+    "price": 2,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 16,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  },
+  {
+    "activityName": "Ruta por Tejeda",
+    "activityId": 17,
+    "numberOfPeople": 4,
+    "price": 7,
+    "activityType": "trekking",
+    "dateAvailability": ["01/01/2022", "31/12/2022"],
+    "timeAvailability": ["09:00", "10:00", "11:00", "12:00", "16:00", "17:00"],
+    "timeDuration": 1,
+    "maxConcurrentActivities": 1
+  }
+
+
+]
