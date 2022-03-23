@@ -6,6 +6,7 @@
     place-items: center;
     margin-left: 6rem;
 
+
 }
 
 #people-selector-container{
@@ -59,7 +60,7 @@
 #timetable{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 30vh;
-    width: 40vw;
+    width: 45vw;
     border-radius: 2rem;
     text-align: center;
     padding-top: 2rem;
@@ -94,6 +95,11 @@
     margin: 2rem 0;
 }
 
+.activity-duration{
+    width: 17vw;
+    padding-left:3vw;
+}
+
 .delete-btn{
     border: none;
     background-color: white;
@@ -119,5 +125,32 @@
 
 }
 
+
+@media (max-width: 575px) {
+
+    #route-template{
+        grid-template-columns: repeat(1, 100%);
+        
+    }
+
+    #map-container{
+        grid-row: 1;
+        margin-bottom:2em;
+    }
+
+    .cart-btn{
+        position: relative;
+        float:none;
+        justify-self: center;
+        margin-right: unset;
+        margin-top: 3rem;
+    }
+
+    .activity-duration{
+        width: 22vw;
+        padding-left:5vw;
+
+    }
+  }
 
 
