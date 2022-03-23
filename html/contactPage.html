@@ -1,54 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact Us | Cantrip</title>
-        <link href="../css/styles.css" rel="stylesheet">
-        <link href="../css/contactPage.css" rel="stylesheet">
-    </head>
-    <body>
-        <iframe src="header.html"></iframe>
+  <head>
 
-        <h1>Contact us</h1>
+    <title>Contact Us | Cantrip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/contactPage.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-        <div class="subtitle">
-            <p>Please fill out the following form to cantact us.</p>
-            <p>Your feedback help us to improve your experience.</p>
-        </div>
+  </head>
 
+  <body>
+    <iframe src="header.html"></iframe>
 
-        <form action="" method="post">
-            <div class="formContainer">
-                <div class="formElement">
-                    <label for="userNameForm">Name</label>
-                    <input type="text" name="userName" class="input_overlay" id="userNameForm" placeholder="your name">
-                </div>
+      <h1>Contact us</h1>
 
-                <div class="formElement">
-                    <label for="emailForm">E-mail</label>
-                    <input type="text" name="email" class="input_overlay" id="emailForm" placeholder="your email">
-                </div>
-
-                <div class="formElement">
-                    <label for="phoneForm">Phone number</label>
-                    <input type="text" name="phone"  class="input_overlay" id="phoneForm" placeholder="your phone number">
-                </div>
-
-                <div class="formElement">
-                    <label for="messageForm">Message</label>
-                    <textarea name="message" id="messageForm" placeholder="message..."></textarea>
-                </div>
-
-                <div class="button">
-                    <input type="submit" class="input_overlay_submit" value="Submit">
-                </div>
-            </div>
+      <div class="text-center m-4">
+          <p>Please fill out the following form to cantact us.</p>
+          <p>Your feedback help us to improve your experience.</p>
+      </div>
 
 
+    <div class="container mt-5">
+        <form class="row g-3 ">
+          <div class="col-md-6 mx-auto borderStyle">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-6 mx-auto borderStyle">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-6 mx-auto borderStyle">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="emailInfo" required>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-6 mx-auto borderStyle">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber">
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-6 mx-auto borderStyle">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="comments" rows="3" required></textarea>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
         </form>
+    </div>
 
-        <div class="footerPosition">
-            <iframe src="footer.html"></iframe>
-        </div>
-    </body>
+  </body>
 </html>

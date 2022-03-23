@@ -1,50 +1,6 @@
-.formElement{
-    height:2em;
-    margin-top: 0.2em;
-}
-
-.formContainer{
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.formElement{
-    display: flex;
-    align-items: left;
-}
-
-.formElement > label{
-    flex: 0 0 50%;
-    border: 2px solid red;
-}
-
-.formElement > input{
-    flex: 0 0 50%;
-    border: 2px solid red;
-}
-
-.formMessage{
-    margin-top: 0.5em;
-    height: 7.5em;
-    margin-bottom: 1.5em;
-}
-
-.subtitle{
-    margin-top:2em;
-    text-align: center;
-}
-
-textarea{
-    width: 35em;
-    height: 15em;
-    resize: none;
-    padding: 1em;
-
+.borderStyle > input, textarea{
     border-radius: 1rem;
     border:none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    color:black;
-    float: left;
 }
+
