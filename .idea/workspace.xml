@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e12bb66-682b-46c5-98d6-bf65454ab560" name="Default Changelist" comment="Added pagination and fixed height and width for predefined routes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/routePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/routePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/routePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/routePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +173,7 @@
       <workItem from="1647938747670" duration="1484000" />
       <workItem from="1647964869418" duration="986000" />
       <workItem from="1648025150646" duration="1012000" />
+      <workItem from="1648038112233" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="Added pagination and fixed height and width for predefined routes.">
       <created>1646048898758</created>
