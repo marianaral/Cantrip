@@ -1,10 +1,11 @@
-.profileContainer{
+.profile_container{
     text-align: center;
-    position:relative;
+    position:absolute;
+    top:10%;
     width: 100%;
 }
 
-.profileContainer > img{
+.profile_container > img{
     height:15em;
     width:15em;
     border-radius: 50%;
@@ -23,17 +24,16 @@
 }
 
 .email_container{
-    margin-top:5em;
+    margin-top:20em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .email_element > img{
-
     object-fit: contain;
     height: 20px;
-    margin-left:40px;
+    padding-left:1em;
 }
 
 .email_element > input{
@@ -56,3 +56,11 @@
     margin-bottom: 11rem;
 }
 
+.input_cover{
+    border-radius: 1rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 1em;
+}
