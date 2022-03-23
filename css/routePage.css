@@ -1,16 +1,23 @@
-.datetime-selector-container{
+
+.route-settings-container{
+    margin-top: 7rem;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, fit-content(33%));
     place-items: center;
-    width: 8rem;
-    margin-left: 2rem;
+    margin-left: 6rem;
+
+
 }
 
 #people-selector-container{
     display: grid;
     grid-template-columns: repeat(3, 1.5rem);
     place-items: center;
-    width: 5rem;
+    width: 6rem;
+}
+
+#people-selector-container > p{
+    margin-top: 0.5rem;
 }
 
 #arrow-number-people-image-up{
@@ -24,17 +31,6 @@
     height: auto;
 }
 
-/*RoutePage*/
-.route-settings-container{
-    display: grid;
-    grid-template-columns: repeat(3, fit-content(33%));
-    place-items: center;
-    margin-left: 6rem;
-
-}
-
-
-
 .route-page-arrow{
     display: grid;
     margin-left: 1rem;
@@ -42,6 +38,13 @@
     background-color: white;
 }
 
+.datetime-selector-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+    width: 8rem;
+    margin-left: 2rem;
+}
 
 
 #map-container{
@@ -50,14 +53,14 @@
 }
 
 #map-image{
-    width: 40rem;
+    width: 40vw;
     height:auto;
 }
 
 #timetable{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    height: 30rem;
-    width: 35rem;
+    height: 30vh;
+    width: 45vw;
     border-radius: 2rem;
     text-align: center;
     padding-top: 2rem;
@@ -92,6 +95,11 @@
     margin: 2rem 0;
 }
 
+.activity-duration{
+    width: 17vw;
+    padding-left:3vw;
+}
+
 .delete-btn{
     border: none;
     background-color: white;
@@ -117,5 +125,32 @@
 
 }
 
+
+@media (max-width: 575px) {
+
+    #route-template{
+        grid-template-columns: repeat(1, 100%);
+        
+    }
+
+    #map-container{
+        grid-row: 1;
+        margin-bottom:2em;
+    }
+
+    .cart-btn{
+        position: relative;
+        float:none;
+        justify-self: center;
+        margin-right: unset;
+        margin-top: 3rem;
+    }
+
+    .activity-duration{
+        width: 22vw;
+        padding-left:5vw;
+
+    }
+  }
 
 
