@@ -1,4 +1,9 @@
 /*Index.html*/
+.content-container{
+    position: relative;
+    min-height: 100%;
+}
+
 .carousel-inner > .item > img {
     width: 60vw !important;
     height: 40vh !important;
@@ -65,8 +70,8 @@
     }
 
     .outstanding-routes-container{
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         align-items: center;
     }
 
