@@ -40,19 +40,22 @@
 
 
 @media(max-width: 575px){
-    .outstanding-routes-container{
+    #chief-container{
         margin-bottom: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .card{
+    #chief-container > .card{
         width: 30vw;
         margin-bottom: 3rem;
     }
-    .outstanding-routes-img{
+
+    #chief-container > .card > .outstanding-routes-img{
         width: 20vw;
     }
+
+
 
 }

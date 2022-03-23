@@ -47,53 +47,7 @@
         11,
         14
       ]
-    },
-    {
-      "routeName": "North Romantic Route",
-      "numberOfPeople": 2,
-      "price": 30,
-      "thumbnailPath": "../media/predefinedRoutesImages/norte_romantica01.jpg",
-      "dateAvailability": [
-        "08/03/2022",
-        "31/12/2022"
-      ],
-      "publishDate": "15/03/2022",
-      "activities": [
-        7,
-        13
-      ]
-    },
-    {
-      "routeName": "Family route through Cruz de los Llanos",
-      "numberOfPeople": 4,
-      "price": 10,
-      "thumbnailPath": "../media/predefinedRoutesImages/tejeda_familiar01.jpg",
-      "dateAvailability": [
-        "15/03/2022",
-        "31/12/2022"
-      ],
-      "publishDate": "15/03/2022",
-      "activities": [
-        6,
-        8,
-        12
-      ]
-    },
-    {
-      "routeName": "Carnival Route",
-      "numberOfPeople": 4,
-      "price": 20,
-      "thumbnailPath": "../media/predefinedRoutesImages/carnaval01.jpg",
-      "dateAvailability": [
-        "01/02/2022",
-        "31/03/2022"
-      ],
-      "publishDate": "15/03/2022",
-      "activities": [
-        10,
-        16,
-        17
-      ]
     }
+
   ]
 }
