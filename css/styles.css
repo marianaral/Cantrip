@@ -22,18 +22,18 @@ h1 {
 }
 
 .outstanding-routes-img{
-    width: 10vw;
+    width: 20rem;
     margin-top: 2rem;
     border-radius: 1.5rem;
-    height: 20vh;
+    height: 24rem;
     object-fit: cover;
 }
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2rem;
-    width: 15vw;
-    height: 30vh;
+    width: 22rem;
+    height: 30rem;
     text-align: center;
     justify-self: center;
     text-decoration: none;

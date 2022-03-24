@@ -2,6 +2,7 @@
 .content-container{
     position: relative;
     min-height: 100%;
+    margin-bottom: 5rem;
 }
 
 .carousel-inner > .item > img {
@@ -60,8 +61,12 @@
         display: flex;
     }
     .card {
-        width: 10rem !important;
-
+        width: 18rem !important;
+        height: 28rem !important;
+    }
+    .outstanding-routes-img{
+        width: 15rem !important;
+        height: 22rem !important;
     }
 }
 
@@ -77,15 +82,15 @@
     }
 
     .card{
-        width: 60vw !important;
-        height: 40vh !important;
+        width: 22rem !important;
+        height: 28rem !important;
         margin-bottom: 3rem;
 
     }
 
     .outstanding-routes-img{
-        width: 50vw !important;
-        height: 30vh !important;
+        width: 20rem !important;
+        height: 22rem !important;
     }
 
 }
