@@ -1,6 +1,7 @@
 
 .card{
     padding: 0;
+    width: 24rem !important;
 }
 
 .about-us-container{
@@ -8,8 +9,14 @@
 
 }
 
+.outstanding-routes-img{
+    margin-top: unset !important;
+    height: 25rem !important;
+    margin-bottom: 0.5rem;
+}
+
 .card > p{
-    font-size: 80%;
+    font-size: 85%;
 }
 
 @media (max-width: 1099px){
@@ -34,7 +41,7 @@
         margin: 0;
     }
     .card > p{
-        font-size: 65%;
+        font-size: 80%;
     }
 }
 
@@ -53,7 +60,7 @@
     }
 
     #chief-container > .card > .outstanding-routes-img{
-        width: 20vw;
+        width: 20rem;
     }
 
 
