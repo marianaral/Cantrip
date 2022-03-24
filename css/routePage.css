@@ -10,24 +10,31 @@
 }
 
 #people-selector-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1.5rem);
+    display: flex;
     place-items: center;
-    width: 6rem;
+    justify-content: center;
+    width: 15rem ;
+    height: 5rem ;
 }
 
 #people-selector-container > p{
     margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+#people-selector-container > img{
+    width: 2rem;
+    height: auto;
 }
 
 #arrow-number-people-image-up{
     transform: rotate(90deg);
-    width: 1rem;
+    width: 2rem;
     height: auto;
 }
 #arrow-number-people-image-down{
     transform: rotate(-90deg);
-    width: 1rem;
+    width: 2rem;
     height: auto;
 }
 
@@ -42,10 +49,19 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     place-items: center;
-    width: 8rem;
+    width: 20rem !important;
+    height: 5rem !important;
     margin-left: 2rem;
 }
 
+.datetime-selector-container > p{
+    font-size: 2rem;
+}
+
+.datetime-selector-container > img{
+    width: 2rem;
+    height: auto;
+}
 
 #map-container{
     float: right;
@@ -53,18 +69,17 @@
 }
 
 #map-image{
-    width: 40rem;
+    width: 50rem;
     height:auto;
 }
 
 #timetable{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 30rem;
-    width: 45vw;
+    width: 45rem;
     border-radius: 2rem;
     text-align: center;
     padding-top: 2rem;
-    padding-left: 1rem;
 
 }
 
@@ -72,7 +87,7 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     place-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     position: relative;
     margin-bottom: 10rem;
 }
@@ -128,7 +143,7 @@
 }
 
 
-@media (max-width: 575px) {
+@media (max-width: 967px) {
 
     #route-template{
         grid-template-columns: repeat(1, 100%);
@@ -161,8 +176,22 @@
 
     .route-settings-container{
         margin-left: unset;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        
   
+    }
+
+    .input_overlay{
+        margin-top:1rem;
+        width: 15rem !important;
+        margin-left:unset
+    }
+
+    .people-selector-container{
+        justify-content: center !important;
+        place-items: center;
     }
   }
 
