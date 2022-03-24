@@ -53,7 +53,7 @@
 }
 
 #map-image{
-    width: 40vw;
+    width: 40rem;
     height:auto;
 }
 
@@ -152,6 +152,17 @@
         width: 22vw;
         padding-left:5vw;
 
+    }
+
+    #timetable{
+
+        width: 35rem;
+    }
+
+    .route-settings-container{
+        margin-left: unset;
+        justify-content: center;
+  
     }
   }
 
