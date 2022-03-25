@@ -12,12 +12,30 @@
 
 .formContainer > .input_overlay{
     width: 30rem;
-    height: 6rem;
+    height: 3rem;
     margin-bottom: 3rem;
+    font-size: medium;
 }
 
 .formContainer > .input_overlay_submit{
-    width: 20rem;
-    height: 4rem;
+    width: 10rem;
+    height: 3rem;
 }
 
+@media (max-width: 767px) {
+    .formContainer > .input_overlay {
+        width: 55vw;
+        height: 3rem;
+        margin-bottom: 3rem;
+        font-size: medium;
+    }
+
+}
+@media (max-width: 575px){
+    .formContainer > .input_overlay {
+        width: 20rem;
+        height: 3rem;
+        margin-bottom: 3rem;
+        font-size: medium;
+    }
+}

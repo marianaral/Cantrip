@@ -1,5 +1,6 @@
 .company-name{
     padding-left: 3rem;
+    margin-top: 1rem;
 }
 .search-container{
     margin-top: 3rem;
@@ -102,9 +103,6 @@ p{
     width: 10vw !important;
 }
 
-.company-name{
-    margin-top: 1rem;
-}
 
 #header-login-global{
     display: flex;
@@ -114,9 +112,6 @@ p{
 
 @media (max-width: 1099px){ /*tablet landscape*/
 
-    .company-name{
-        font-size: 1.7rem !important;
-    }
 
     .outstanding-routes-img{
         width: 0%;
@@ -124,9 +119,7 @@ p{
         height: 18rem !important;
     }
 
-    .menu-link{
-        font-size: 1rem !important;
-    }
+
 
     .card {
         width: 15rem !important;
