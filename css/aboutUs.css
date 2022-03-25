@@ -1,7 +1,7 @@
 
 .outstanding-routes-container > .card{
     padding: 0;
-    width: 24rem
+    width: 24rem;
 }
 
 .about-us-container{
@@ -17,6 +17,7 @@
 
 .card > p{
     font-size: 85%;
+    line-height: 1rem;
 }
 
 @media (max-width: 1099px){
