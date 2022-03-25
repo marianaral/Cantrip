@@ -121,6 +121,10 @@ footer{
     padding-right: 0.5rem;
 }
 
+.validation-text:focus:required:invalid{
+    outline: indianred solid 1px;
+}
+
 ::-webkit-input-placeholder {
     font-size: 1.1rem;
     text-align: center;

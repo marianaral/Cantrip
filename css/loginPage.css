@@ -21,6 +21,3 @@
     height: 4rem;
 }
 
-.validation-text:focus:required:invalid{
-    outline: indianred solid 1px;
-}
