@@ -13,8 +13,7 @@
       "publishDate": "15/03/2022",
       "activities": [
         5,
-        8,
-        15
+        6
       ],
       "startTime": "8:00"
     },
@@ -48,11 +47,9 @@
       "publishDate": "15/03/2022",
       "activities": [
         2,
-        9,
-        11,
-        14
+        4
       ],
-      "startTime": "10:30"
+      "startTime": "11:00"
     }
 
   ]
