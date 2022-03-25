@@ -15,38 +15,13 @@
     <script src="../js/dataManagement.js"></script>
     <script>
         $(function(){
-            $("#header").load("header.html");
+            $("#header").load("headerLogin.html");
             $("#footer").load("footer.html");
         });
     </script>
 </head>
 <body>
-    <header>
-            <nav class="menu">
-                <a target="_parent" href="index.html"><p class="company-name">CanTrip</p></a>
-                <div class="nav-container-login">
-                    <a target="_parent" href="predefinedRoutes.html" class="menu-link">Search routes</a>
-                    <a target="_parent" href="aboutUsPage.html" class="menu-link">About us</a>
-                    <a target="_parent" href="contactPage.html" class="menu-link">Contact us</a>
-                    <p><a target="_parent" href="profilePage.html" ><img class="menu-profile" src="../media/user.jpg"></a></p>
-                </div>
-            </nav>
-
-        <div class="dropdown burger-menu">
-            <a target="_parent" href="index.html"><p class="company-name">CanTrip</p></a>
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../media/menu.png">
-            </a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" target="_parent" href="profilePage.html" ><img class=" menu-profile" src="../media/user.jpg"></a></li>
-                <li><a class="dropdown-item" href="index.html">Cantrip</a></li>
-                <li><a class="dropdown-item" href="predefinedRoutes.html">Search routes</a></li>
-                <li><a class="dropdown-item" href="loginPage.html">Login</a></li>
-                <li><a class="dropdown-item" href="contactPage.html">Contact us</a></li>
-            </ul>
-        </div>
-    </header>
+    <div id="header"></div>
 
     <section id="search-btn">
         <a href="routePage.html"><button class="input_overlay" id="create-route">Create your own</button></a>

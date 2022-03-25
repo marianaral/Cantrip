@@ -125,8 +125,8 @@
     float: right;
     border:none;
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     background-color: #00B4D8;
     margin-right: 5rem;
     position: absolute;
@@ -137,7 +137,7 @@
 }
 
 #cart-img{
-    width: 3rem;
+    width: 5rem;
     height: auto;
 
 }

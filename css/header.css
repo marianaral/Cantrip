@@ -10,6 +10,15 @@
 
 }
 
+.menu-profile{
+    width: 5rem;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 5em;
+    float: right;
+    align-self: center;
+}
+
 #header-login{
     display: flex;
     align-content: center;
