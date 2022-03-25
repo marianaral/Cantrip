@@ -80,7 +80,6 @@ $(document).ready(function(){
             }
 
         })
-        console.log(timetableconfig);
         if(config == ''){
             name = ' <div>\n' +
                 '            <h1>Route Name</h1>\n' +
