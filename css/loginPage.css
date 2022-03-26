@@ -34,8 +34,6 @@
 @media (max-width: 575px){
     .formContainer > .input_overlay {
         width: 20rem;
-        height: 3rem;
-        margin-bottom: 3rem;
-        font-size: medium;
+
     }
 }

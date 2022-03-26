@@ -58,7 +58,9 @@ $(document).ready(function(){
                                             '                    <p class="exact-hour">' + hour + '</p>\n' +
                                             '                </div>\n' +
                                             '                <div class="activity-container">\n' +
-                                            '                    <p class="activity-duration"> ' + hour + ' - ' + hourEnd + '</p><p>' + this['activityName'] + '</p><button class="delete-btn">X</button>\n' +
+                                            '                    <p class="activity-duration"> ' + hour + ' - ' +
+                                                                 hourEnd + '</p><p>' + this['activityName'] +
+                                                                '</p><button class="delete-btn">X</button>\n' +
                                             '                </div>\n';
 
                                         hourInt = hourEndInt;
